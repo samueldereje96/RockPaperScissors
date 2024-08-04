@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src = "script.js"></script>
+    <link href = "styles.css" rel = "stylesheet">
+    <script src = "scripts.js" defer></script>
 </head>
 <body>
-    
+    <header>Rock Paper Scissors</header>
+    <div class = "container">
+        <div class="human">
+            <h3>Human</h3>
+            <div class = "player">
+                <img src = "https://cdn-icons-png.flaticon.com/512/1864/1864509.png" alt = "">
+                <div class="score">
+                    <div>Score: </div>
+                    <div class="humanScore">0</div>
+                </div>
+            </div>
+            <div class="humanChoice">
+                <div class="human-rock">
+                    <h4>Rock</h4>
+                    <button id = "human-rock"> <img src = "https://static.vecteezy.com/system/resources/previews/018/993/589/original/slate-stone-rock-color-icon-illustration-vector.jpg" alt = ""></button>
+                </div>
+                <div class="human-paper">
+                    <h4>Paper</h4>
+                    <button id = "human-paper"><img src = "https://static.vecteezy.com/system/resources/thumbnails/005/948/268/small_2x/document-outline-icon-file-line-symbol-paper-icon-free-vector.jpg" alt = ""></button>
+                </div>
+                <div class="human-scissors">
+                    <h4>Scissors</h4>
+                    <button id = "human-scissors"><img src = "https://www.freeiconspng.com/thumbs/scissors-icon/scissors-icon-31.png" alt =""></button>
+                </div>
+            </div>
+        </div>
+        <div class="computer">
+            <h3>Computer</h3>
+            <div class = "player">
+                <img src = "https://png.pngtree.com/png-clipart/20230913/original/pngtree-computer-clipart-cartoon-retro-computer-with-keyboard-isolated-vector-illustration-png-image_11078246.png" alt = "">
+                <div class="score">
+                    <div>Score: </div>
+                    <div class="computerScore">0</div>
+                </div>
+            </div>
+            <div class="computerChoice">
+                <div class="computer-rock">
+                    <h4>Rock</h4>
+                    <button id = "computer-rock"> <img src = "https://static.vecteezy.com/system/resources/previews/018/993/589/original/slate-stone-rock-color-icon-illustration-vector.jpg" alt = ""></button>
+                </div>
+                <div class="computer-paper">
+                    <h4>Paper</h4>
+                    <button id = "computer-paper"><img src = "https://static.vecteezy.com/system/resources/thumbnails/005/948/268/small_2x/document-outline-icon-file-line-symbol-paper-icon-free-vector.jpg" alt = ""></button>
+                </div>
+                <div class="computer-scissors">
+                    <h4>Scissors</h4>
+                    <button id = "computer-scissors"><img src = "https://www.freeiconspng.com/thumbs/scissors-icon/scissors-icon-31.png" alt =""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Samuel Dereje Copyright &copy; 2024 Addis Ababa, Ethiopia <a href = "https://github.com/samueldereje96"><img src = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo"></a>
+    </footer>
 </body>
 </html>
